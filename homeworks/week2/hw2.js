@@ -1,5 +1,8 @@
 function capitalize(str) {
-  return str;
+  if (str[0] >= 'A' && str[0] <= 'Z') {
+    return str[0] + str.slice(1);
+  }
+  return str[0].toUpperCase() + str.slice(1);
 }
-
-console.log(capitalize('hello'));
+const result = capitalize('!nick');
+console.log(result);
