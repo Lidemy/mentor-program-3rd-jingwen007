@@ -1,0 +1,24 @@
+function capitalize(str) {
+	
+	var arr = str.split('')//將字串轉為陣列
+	//console.log(arr)
+	
+	var char = str.substr(0,1)//取出第一個字母
+	//console.log(char)
+	
+		
+	if(char >='a' && char <= 'z'){//轉大寫
+		var capital   = arr[0].toUpperCase()
+		//console.log(capital)
+	}
+	
+	for(var i = 1 ; i < arr.length ;i++){//連接字串
+			capital += arr[i]
+	}
+  return capital;
+}
+	
+
+ var result = capitalize('hello');
+ console.log(result)
+
