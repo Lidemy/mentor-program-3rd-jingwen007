@@ -8,7 +8,6 @@ function isPrime(num) {
         return false;
       }
     }
-    return true;
   }
   return true;
 }
