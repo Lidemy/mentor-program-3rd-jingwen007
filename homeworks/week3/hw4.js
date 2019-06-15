@@ -1,5 +1,8 @@
-function isPalindromes(str) {
-  console.log(str);
+function isPalindrome(str) {
+  const arr = str.split('');
+  const result = arr.reverse().join('');
+  return result === str;
 }
+console.log(isPalindrome('abcbfa'));
 
-module.exports = isPalindromes;
+module.exports = isPalindrome;
