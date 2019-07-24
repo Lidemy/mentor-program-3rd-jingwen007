@@ -1,5 +1,5 @@
 body,html{
-		font-family:medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;;
+		font-family:Arial, sans-serif;
 		margin:0;
 		padding:0;
 		box-sizing: border-box;
@@ -12,7 +12,6 @@ ul,li{
 a:link, a:visited{
 		color:#000;
 }	
-
 .nav-wrapper{
     max-width: 1000px;
     display:block;
