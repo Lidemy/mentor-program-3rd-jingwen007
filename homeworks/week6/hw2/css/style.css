@@ -1,0 +1,358 @@
+body,html{
+		font-family:medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;;
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+}
+ul,li{
+		list-style-type :none;
+		margin:0;
+		padding:0;
+}
+a:link, a:visited{
+		color:#000;
+}	
+
+.nav-wrapper{
+    max-width: 1000px;
+    display:block;
+    margin: 0 auto;
+    margin-top: -10px;
+    z-index: 0;    
+}
+.wrapper {
+    display:block;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+	background-color: white;
+	text-transform:capitalize;	
+	width:100%;
+	position: fixed;
+	top: 0;
+  	left: 0;
+}
+header .logo {
+    display: inline-block;
+    color: #FFF;
+    width: 70%;
+}
+header .navbar {
+    display: inline-block;
+    line-height: 50px;
+    padding-top: 20px;
+}
+header .navbar ul{
+		color:#FFF;
+
+}
+header .navbar ul li{
+		float: left;
+    margin: 0 10px;
+}
+header .navbar ul li a{
+		color:#222;
+ 	 font-size: 13px;
+		text-decoration:none;
+}
+header .navbar > ul > li > a:hover{
+		color: white;
+}
+header .but-upgrade {
+    width: 75px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+}
+header .nav_user{
+		border-radius: 50%;
+}
+.silder{
+		margin-top: 90px;
+	}  
+.silder > img{
+		width: 100%;
+		height: 100%;
+	}	 
+.clap{
+    display: inline-block;
+    position: sticky;
+    top: 180px;
+    left: 145px;
+}    
+.clap > span{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+}
+main{
+		width: 676px;
+}
+main > .message {
+       position: relative;
+	  height: 100px;
+}
+main > .message > img {
+		position: relative;
+		border-radius: 50%;
+        z-index: 1;
+}
+
+h5{
+    position: relative;
+    top: -90px;
+    left: 85px;
+    font-weight: 100;
+}
+
+.radian{
+   position: absolute;
+   top:0;
+   left:0;
+   height: 69px;
+   width: 69px;
+   z-index: 0;
+   border-radius: 50%;
+   border: 1px solid #393;
+}
+.button-follow{
+		position: relative;
+    top: -131px;
+    left: 119px;
+    color: rgba(255,255,255,1);
+    background-color: rgba(3, 168, 124, 1);
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 2px 9px;
+    border: 0px;
+    border: 0px;
+}
+.button-follow:hover{
+    background-color: rgba(2, 158, 116, 1);
+    cursor: pointer;
+}
+.postDate{
+		position: relative;
+    top: -146px;
+    left: 85px;
+    color: #000;
+    font-weight: 100;
+    font-size: 12px;
+		color: rgba(0, 0, 0, 0.54);
+}
+
+.content p{
+    font-size: 20px;
+    line-height: 33px;
+}
+.review_table{
+		width: 100%;
+    border: 1px solid #ddd;
+		font-size: 14px;
+    line-height: 20px;
+    color: #949494;        
+}   
+.review_table td:first-child {
+		width:70%;    
+		padding: 21px;
+		border-right: 1px solid #ddd;
+}
+.review_table td:last-child {
+		width:30%;
+		padding: 21px;
+		text-align: center;
+	  border-left-style:solid 0px;
+
+};
+
+.reveiw_table td {
+  	border:1px dashed red;
+}
+.reveiw_table {
+  	font-size : 13px;
+}
+
+.clearfix::after{
+		display:block;
+		content:'';
+		clear:both;
+}
+.bottomClap{
+    float: left;
+}
+.share_icon{
+    float: right;
+}
+.bottom_write{
+    letter-spacing: 0.05em;
+    color: #999;
+    font-size: 12px;
+}
+.bottom_picture{
+    vertical-align: top;
+    margin-top: 17px;
+    border-radius: 50%;
+}
+.botton_author{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: arial;
+    padding: 8px 0;
+    color: #333
+}
+.bottom_introduction{
+    display: inline-block;
+    width: 72%;
+    padding: 15px 10px;
+    font-size: 15px;
+    color: #636363;
+    letter-spacing: 3px;
+}
+.bottom_follow {
+    display: inline-block;  
+		position: relative;
+    vertical-align: top;
+    top: 37px;    
+}
+.bottom_follow > button{
+
+    background-color: rgba(3, 168, 124, 1);
+    color:#fff;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 13px;
+    padding: 8px 14px;
+}
+.responses_btn {
+		width: 70%;
+    display: block;
+    margin: 50px auto;
+    
+    border: 1px solid rgba(3, 168, 124, 1);
+    background-color: white;
+    color: rgba(3, 168, 124, 1);
+    
+    padding: 20px 0;
+    font-size: 14px;      
+      
+}
+.responses_btn a{
+    color: rgba(3, 168, 124, 1);    
+}
+.responses_btn a:link {
+    cursor: pointer;
+    text-decoration: none;
+}
+.other_medium_title {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    
+}
+.border-bottom{
+    border-bottom: 1px solid #ddd;
+}
+.recommend{
+    width: 80%;
+    margin: 0 auto;
+}
+.recommend_related{ 
+    font-size: 13px;
+    padding: 26px 0 15px 0;
+    color: #b1b1b1;    
+}
+.recommend_headline{
+		word-break: normal;
+		font-size:24px;		
+    font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    display: block;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;    
+}
+.recommend_content{
+    display: inline-block;
+    padding: 20px 0px;
+    float: left;
+    text-align: center;
+    width: 33.33333%;
+}
+.copyright{
+	border-top:1px solid #ddd;
+	width:70%
+	font-size:14px;
+	color:#000;
+	padding:40px 0 20px;
+	text-align:center;
+}
+
+.margin-grap{
+    margin-bottom: 20px;
+}
+.padding-top{
+    padding-top: 20px;
+}
+.padding-bottom{
+   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+.clap{
+		display:none;
+}
+}		
+@media screen and (min-width: 40px) and (max-width: 860px) {
+header .logo {
+    display: inline;
+}
+header .navbar {
+    display: inline;
+		float:right;
+		padding-top: 10px;		
+}
+  
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.nav-wrapper {
+    margin-top: 10px;
+}
+.content p {
+    padding: 0 30px;
+}
+.clap{
+		display:none;
+}
+.s-td-l{
+		float: left;
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+.s-td-r {
+    padding: 61px 30px 10px;
+}
+.bottom_follow {
+    top: 0px;    
+}
+.other_medium_title {
+    padding: 0 20px;
+}    
+
+.recommend_content {
+		display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px)
+.wrapper {
+    max-width: 430px;
+    margin: 0 auto;
+}
