@@ -16,8 +16,9 @@ a:link, a:visited{
     max-width: 1000px;
     display:block;
     margin: 0 auto;
-    margin-top: -10px;
-    z-index: 0;    
+    margin-top: -12px;
+    z-index: 0;
+    height: 90px;
 }
 .wrapper {
     display:block;
@@ -25,12 +26,9 @@ a:link, a:visited{
     margin: 0 auto;
 }
 header {
-	background-color: white;
-	text-transform:capitalize;	
+	background-color: white;	
 	width:100%;
 	position: fixed;
-	top: 0;
-  	left: 0;
 }
 header .logo {
     display: inline-block;
@@ -39,8 +37,9 @@ header .logo {
 }
 header .navbar {
     display: inline-block;
-    line-height: 50px;
-    padding-top: 20px;
+    line-height: 20px;
+    padding-top: 35px;
+    margin-left: 15px;    
 }
 header .navbar ul{
 		color:#FFF;
@@ -69,8 +68,11 @@ header .but-upgrade {
 header .nav_user{
 		border-radius: 50%;
 }
+header .none{
+	display : none;
+}
 .silder{
-		margin-top: 90px;
+		margin-top: 20px;
 	}  
 .silder > img{
 		width: 100%;
@@ -166,7 +168,7 @@ h5{
 		text-align: center;
 	  border-left-style:solid 0px;
 
-};
+}
 
 .reveiw_table td {
   	border:1px dashed red;
@@ -262,11 +264,13 @@ h5{
 .recommend_related{ 
     font-size: 13px;
     padding: 26px 0 15px 0;
-    color: #b1b1b1;    
+    color: #b1b1b1;  
+	text-align: left;
+    padding-left: 45px;
 }
 .recommend_headline{
-		word-break: normal;
-		font-size:24px;		
+	word-break: normal;
+	font-size:22px;		
     font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
     display: block;
     width: 95%;
@@ -282,7 +286,7 @@ h5{
 }
 .copyright{
 	border-top:1px solid #ddd;
-	width:70%
+	width:70%;
 	font-size:14px;
 	color:#000;
 	padding:40px 0 20px;
@@ -295,46 +299,17 @@ h5{
 .padding-top{
     padding-top: 20px;
 }
-.padding-bottom{
-   padding-bottom: 20px;
+.padding-bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 @media screen and (max-width: 1200px) {
-.clap{
+.clap img{
 		display:none;
 }
-}		
-@media screen and (min-width: 40px) and (max-width: 860px) {
-header .logo {
-    display: inline;
-}
-header .navbar {
-    display: inline;
-		float:right;
-		padding-top: 10px;		
-}
-  
-.wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-}
-.nav-wrapper {
-    margin-top: 10px;
-}
-.content p {
-    padding: 0 30px;
-}
-.clap{
+.clap span{
 		display:none;
-}
-.s-td-l{
-		float: left;
-    width: 50%;
-    padding: 15px;
-    border: 1px solid #ddd;
-}
-.s-td-r {
-    padding: 61px 30px 10px;
 }
 .bottom_follow {
     top: 0px;    
@@ -343,15 +318,236 @@ header .navbar {
     padding: 0 20px;
 }    
 
-.recommend_content {
-		display: inline-block;
+.recommend_content img{
+	max-width: 100%;
+	background-size: cover;
+	/*display: inline-block;*/
+   /* margin: 0 auto;*/
+   /* width: 100%;*/
+}
+}
+@media screen and (max-width: 1020px) {
+header .logo {
+    width: 60%;
+}
+}
+@media screen and (max-width: 870px) and (min-width: 660px){
+header .navbar {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 35px;
+    margin-left: 110px;
+}
+header .logo {
+    width: 55%;
+}
+.nav-wrapper {
+    max-width: 870px;
+}	
+.wrapper {
+    display: block;
+    max-width: 870px;
     margin: 0 auto;
+}
+header .logo {
+	padding-left: 15px;
+    width: 35%;
+}
+.content p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 8% 0px 28px;
+}
+.recommend{
+	width:100%
+    margin: 0 auto;
+}
+.recommend_related{ 
+	width:100%;	
+}
+.recommend_content{
+
     width: 100%;
 }
+.recommend_content img {
+    max-width: 50%;
+    background-size: cover;
+    text-align: right;
+    float: right;
+}
+.recommend_headline {
+    font-size: 26px;
+    float: left;
+    width: 50%;
+    top: 76px;
+    position: relative;	
 }
 
-@media screen and (max-width: 600px) and (min-width: 400px)
+}
+
+@media screen and (max-width: 661px) and (min-width: 565px){
+header .navbar {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 35px;
+}
+header .logo {
+    width: 55%;
+}
+.nav-wrapper {
+    max-width: 870px;
+}	
 .wrapper {
-    max-width: 430px;
+	display: block;
+    max-width: 530px;
     margin: 0 auto;
+}
+header .logo {
+	padding-left: 15px;
+    width: 35%;
+}
+.content p {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 0px 0px 9px;
+}
+.recommend{
+	width:100%
+    margin: 0 auto;
+}
+.recommend_related{ 
+	width:100%;	
+}
+.recommend_content{
+
+    width: 100%;
+}
+.recommend_content img {
+	max-width: 100%;
+    background-size: cover;
+    text-align: center;	
+}
+.recommend_headline {
+    font-size: 19px;
+    float: left;
+    top: 20px;
+    position: relative;
+}
+}
+@media screen and (max-width: 560px) and (min-width: 476px){
+header .navbar {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 35px;
+}
+header .logo {
+	padding-left: 15px;
+    width: 25%;
+}
+.nav-wrapper {
+    max-width: 560px;
+}	
+.wrapper {
+	display: block;
+    max-width: 530px;
+    margin: 0 auto;
+}
+.wrapper h1 {
+    font-size: 41px;
+    margin: 21px 36px;
+}
+.content p {
+    font-size: 18px;
+    padding: 0px 37px 0px 26px;
+}
+main > .message {
+    margin: 0 29px;
+    height: 65px;
+}
+.review_table {
+    width: 90%;
+    margin: 0 auto;
+}
+.recommend{
+	width:100%
+    margin: 0 auto;
+}
+.recommend_related{ 
+	width:100%;	
+}
+.recommend_content{
+
+    width: 100%;
+}
+.recommend_content img {
+	max-width: 100%;
+    background-size: cover;
+    text-align: center;	
+}
+.recommend_headline {
+    font-size: 19px;
+    float: left;
+    top: 20px;
+    position: relative;
+}
+}
+@media screen and (max-width: 475px) and (min-width: 300px){
+header .navbar {
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 35px;
+}
+.but-upgrade{
+	display:none;
+}
+.nav-wrapper {
+    max-width: 290px;
+    margin: 0 25px;
+}
+header .navbar ul li {
+    float: left;
+    margin: 0;
+}
+header .logo {
+    width: 45%;
+}
+.wrapper {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.wrapper h1 {
+    font-size: 19px;
+    margin: 6px 17px 16px;
+}
+main > .message {
+   height: 70px;
+}
+.message {
+    margin: 0 0 0 20px;
+}
+.content {
+    margin: 0 0 0 20px;
+}
+.content p {
+    font-size: 15px;
+    line-height: 21px;
+}
+.padding-bottom {
+    padding-bottom: 0px;
+}
+.bottom_picture {
+    margin: 0 10px;
+}
+.bottom_introduction {
+    width: 98%;
+}
+.recommend_content {
+    padding: 10px 0px;
+    width: 100%;
+}
+.recommend_related {
+	padding: 0px 0 15px 0;
+	padding-left: 0px;
 }

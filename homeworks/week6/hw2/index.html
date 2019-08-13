@@ -2,7 +2,7 @@
 
 <html>
   <head>
-	<meta chartset = "UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	  <meta name = "viewport" content = "width=device-width, initial-scale=1" />
 	  <meta name="description" content="This is Mentor Program Week2 hw1.">		
 		<link rel="stylesheet" type="text/css" href="css\normalize.css">
@@ -12,11 +12,11 @@
   <body>
 	  <header>
 		  <div class = "nav-wrapper">	
-			  <div class = "logo"><svg width="45" height="45" viewBox="0 0 45 45"><path d="M5 40V5h35v35H5zm8.56-12.63c0 .56-.03.69-.32 1.03L10.8 31.4v.4h6.97v-.4L15.3 28.4c-.29-.34-.34-.5-.34-1.03v-8.95l6.13 13.36h.71l5.26-13.36v10.64c0 .3 0 .35-.19.53l-1.85 1.8v.4h9.2v-.4l-1.83-1.8c-.18-.18-.2-.24-.2-.53V15.94c0-.3.02-.35.2-.53l1.82-1.8v-.4h-6.47l-4.62 11.55-5.2-11.54h-6.8v.4l2.15 2.63c.24.3.29.37.29.77v10.35z"></path></svg></div> 
+			  <div class = "logo"><img src="images/m_long.png" width="50px" height="50px"></div> 
 				  <div class = "navbar">
 						<ul>
-							<li><a href="http://www.yahoo.com"><svg width="25" height="25" viewBox="0 0 25 25" class="bm bn u bo bp"><path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z"></path></svg></a></li> 
-							<li><a href="http://www.google.com"><svg width="25" height="25" viewBox="-293 409 25 25" class="eh u"><path d="M-273.33 423.67l-1.67-1.52v-3.65a5.5 5.5 0 0 0-6.04-5.47 5.66 5.66 0 0 0-4.96 5.71v3.41l-1.68 1.55a1 1 0 0 0-.32.74V427a1 1 0 0 0 1 1h3.49a3.08 3.08 0 0 0 3.01 2.45 3.08 3.08 0 0 0 3.01-2.45h3.49a1 1 0 0 0 1-1v-2.59a1 1 0 0 0-.33-.74zm-7.17 5.63c-.84 0-1.55-.55-1.81-1.3h3.62a1.92 1.92 0 0 1-1.81 1.3zm6.35-2.45h-12.7v-2.35l1.63-1.5c.24-.22.37-.53.37-.85v-3.41a4.51 4.51 0 0 1 3.92-4.57 4.35 4.35 0 0 1 4.78 4.33v3.65c0 .32.14.63.38.85l1.62 1.48v2.37z"></path></svg></a></li>  
+							<li><a href="http://www.yahoo.com"><img src="images/search.png" width="45px" height="38px"></a></li> 
+							<li><a href="http://www.google.com"><img src="images/bell.png" width="45px" height="41px"></a></li>  
 							<li class = "but-upgrade"><a href="http://www.google.com">Upgrade</a></li>  
 							<li><img alt="jing chen" src="https://miro.medium.com/fit/c/64/64/1*dmbNkD5D-u45r44go_cf0g.png" class="nav_user" width="32" height="32"></li>
 						</ul>
@@ -24,7 +24,7 @@
 			 </div>  
 	  </header>
 	  <div class="silder">
-	  	<img width="2400" height="1600" src="https://miro.medium.com/max/3000/1*K7bBVfi4k9a7wUci_nCg-w.jpeg">
+	  	<img src="https://miro.medium.com/max/3000/1*K7bBVfi4k9a7wUci_nCg-w.jpeg">
 	  </div>		
 		<div class="clap"><img src="images/clap.png"><span>856</span></div>
 		<main class="wrapper">								
@@ -54,14 +54,14 @@
 						<td><img src=".\images\Learn.png"> </td>
 					</tr>	
 				</table>	
-			<div class="content clearfix">	
+			<div>	
 				<p>教學部份的話，在 Hahow 上面有一門付費線上課程：初心者的計概與 coding 火球術，課程宗旨是把計算機概論講得更簡單，幫初學者打基礎。</p>
 				<p>免費課程有開過兩堂，在我自己的課程平台 Lidemy 上面。第一個是從新手到中手：前端工程加強班 ，藉由不斷增加新功能的作業來提升前端技術。</p>
 			</div>	
-			<div class="content clearfix">	
+			<div>	
 				<p>第二個是導讀哈佛大學程式課程：CS50。幫一堂我很推崇的課做導讀，我也創辦了相關的中文討論區社團，並且持續推廣這堂課，之前還自己跳下來做導讀，希望能多少降低一些入門門檻。</p>
 			</div>	
-			<div class="content padding-grap clearfix">	
+			<div>	
 				<p>關於上面這些教學，我有寫了兩篇心得：一場三十人的免費程式教學實驗：成果與檢討以及 Lidemy 鋰學院：為初學者而生的線上程式課程平台。</p>
 			</div>		
 			<div class="clearfix padding-bottom">
@@ -111,5 +111,27 @@
 		<footer class="wrapper copyright">			
 			&#169; Company 2017-2018
 		</footer>	
+		<script>
+
+		window.onscroll = function(){
+        var scroll_y = document.documentElement.scrollTop || document.body.scrollTop;
+		console.log(scroll_y);
+        var nav = document.querySelector(".nav-wrapper");
+		var clap = document.querySelector(".clap");
+        if (scroll_y >= 150) {
+            nav.style.display = "none";
+        }
+        else {
+            nav.style.display = "block";
+        }
+		if (scroll_y >= 2270 || scroll_y < 690) {
+            clap.style.display = "none";
+        }
+        else {
+            clap.style.display = "inline-block";
+        }
+}
+
+		</script>
   </body>
 </html>
