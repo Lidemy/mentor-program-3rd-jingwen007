@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap_banner"></div>
+    <div class="wrap">
+        
+        <form id= "form" action="javscript:;" method="get" class = "form__data">
+            <div class="section">
+                <div class = "section__title">從零到一：程式導師實驗計畫報名表單</div>
+            </div>
+            <div class="section">
+                <div class="section__comment">
+                    <div>詳情請參考：<a href="https://medium.com/@hulitw/mentor-program-b5f96ae1eed1" target="_blank">https://medium.com/@hulitw/mentor-program-b5f96ae1eed1</a></div>
+                    <div>填完之後請務必按照文章內的說明再寄信給我，才算報名成功囉</div>
+                </div>
+                <div class="section__notice">*必填</div>
+            </div>
+
+            <div class="section">
+                <div class="form__email">
+                    <div class="form__content">
+                        <div class="section_content">
+                            <div class = "section__headline">電子郵件地址 <div class="section__notice">*</div>
+                        </div>    
+                        <input name="email" id="email" type="email" placeholder="你的電子郵件">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="section">
+                <div class="form__name">
+                    <div class="form__content">   
+                        <div class="section_content">
+                            <div class = "section__headline">暱稱 <div class="section__notice">*</div> 
+                            <div class="section__comment">該怎麼稱呼您</div>
+                        </div>    
+                        <div><input name="name" id="name" type="text" placeholder="您的回答"></div>
+                        </div>    
+                    </div>
+                </div>              
+            </div>
+
+            <div class="section">   
+                <div class="form__type">
+                    <div class="form__content"> 
+                        <div class="section_content">
+                            <div class = "section__headline">報名類型 <div class="section__notice">*</div> 
+                                <div class="section__description">
+                                    <input name="workType" class="work__engineer" id="work1" type="radio" value="engineer">工程師培養班（每週付出四十小時，從零培養到工程師，學費是一個月薪水）
+                                </div>           
+                                <div class="section__description">    
+                                    <input name="workType" class="work__amateur" id="work2" type="radio" value="amateur">業餘班（依照個人目標訂立學習計畫，學費一萬五千元）</input>
+                                </div> 
+                            </div>  
+                        </div>    
+                    </div>
+                </div>                    
+            </div>    
+
+            <div class="section">  
+                <div class="form__coding">   
+                    <div class="form__content">
+                        <div class="section_content">
+                            <div class = "section__headline">是否有程式相關背景？ <div class="section__notice">*</div>
+                            <div class = "section__comment">範例：無、高中時候學過C++、學過一點網頁前端、目前在資策會上課...</div>
+                        </div>   
+                        <div><input name="coding" id="coding" type="text" placeholder="您的回答"></div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="section">
+                <div class="form__other">
+                    <div class="form__content">
+                        <div class = "section__headline">其他 </div>
+                        <div class = "section__comment">其他任何你想講的</div>
+                        <div><input name="other" id="other" type="text" placeholder="您的回答"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input class="btn" type="submit" value="提交">
+            </div>
+            
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
