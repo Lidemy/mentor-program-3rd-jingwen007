@@ -95,7 +95,6 @@ function wrokTypeEvent(e) {
   e.stopPropagation();
   if (work1.checked === false && work2.checked === false) {
     form__type.classList.add('blankBg');
-
     const newText = document.createElement('div');
     newText.innerText = '這是必填問題';
     newText.classList.add('newText');
@@ -103,7 +102,6 @@ function wrokTypeEvent(e) {
     workFlag = true;
   } else if (workType !== '') {
     form__type.classList.remove('blankBg');
-
     let newText2 = document.querySelectorAll('.newText')[2];
     newText2.style.visibility = "hidden";
   } else {
