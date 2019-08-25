@@ -1,0 +1,92 @@
+*{
+    font-family: serif,'Microsoft JhengHei','Apple LiGothic Medium';
+}
+html{
+    font-size: 13px;
+    background-color: #ede7f6;
+}
+.wrap {
+    position: relative;
+    background-color: #FFF;
+    margin: 0 auto;
+    display: block;
+    max-width: 650px;
+    top: -80px;
+    border-top: 10px solid #c2b96e;
+}
+.wrap_banner {
+    width: 100%;
+    height: 260px;
+    margin-top: 0;
+    background: url(https://source.unsplash.com/pUAM5hPaCRI) no-repeat center;
+    background-size: cover;
+}
+.form__data {
+    margin-bottom: 45px;
+}
+.form__content{
+    padding: 20px;
+}
+.section {
+    margin: 40px;
+}
+.section_content {
+} 
+.section__title{
+    font-size: 2.6rem;
+}
+.section__headline{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+.section__comment{
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+.section__notice {
+    color: red;
+    display: inline-block;
+    padding-top: 20px;
+}
+/* email */
+input[type="text"], #email {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60%;
+    height: 1.3rem;
+}    
+input[type="radio"] {
+    display: inline-block;
+}
+.section__description{
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+.section_answer {
+    font-size: 1rem;
+}
+.form{
+    padding: 40px 40px 20px;
+}   
+.btn{
+    background: #155ded;
+    color: #f8f8f8;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 20px 35px 38px;
+}
+.blankBg{
+    background-color: rgb(255, 214, 214);
+}
+.newText {
+    padding-top: 5px;
+    color: red;
+}
+.inputBg{
+    background-color: #fff;
+}
+.no {
+    display: no;
+}
