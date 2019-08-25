@@ -21,6 +21,7 @@
 
   function emailEvent(e) {
   e.stopPropagation();
+  
     if (email.value === '' && emailFlag === false) {
       form__email.classList.add('blankBg');
       email.classList.add('blankBg');  

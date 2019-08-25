@@ -16,7 +16,7 @@ function startGame(){
     	const end = new Date().getTime();
     	const diff = (end - changeTime)/1000
 
-    	if((diff < limitTime) && flag == false){
+    	if((diff < limitTime) && flag == false) {
     		alert("按太快了")
     	}
     	else if((diff > limitTime) && flag == false)
