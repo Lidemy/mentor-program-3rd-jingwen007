@@ -3,7 +3,6 @@ const result = document.querySelector('#result');
 let flag = 0; 
 let numArray = [];
 let op = '';
-
 document.querySelector('.wrap').addEventListener('click',function(e){
   if (e.target.classList.contains('num')) {      
     result_num = e.target.getAttribute('data-value')
