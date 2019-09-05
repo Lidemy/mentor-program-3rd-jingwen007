@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width: 380px;
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+    background-color: #eee;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+#result{
+    height: 30px;
+    width: 255px;
+    margin: 0 0 20px 0;
+    text-align: right;
+    padding: 0 5px 0 0;
+}
