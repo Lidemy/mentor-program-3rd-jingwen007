@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: "微軟正黑體",sans-serif;
+}
+body,html{
+	height: 100%;
+}
+.wrapper{
+  width: 500px;
+  height: 90%;
+  margin: auto;
+	display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.content{
+  width: 400px;
+  text-align: center;
+}
+h1{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+button{
+  padding: 10px 35px;
+  color: #fff;
+  background-color: #e1a550;
+  border-radius: 5px;
+  border: 0;
+}
+.result h3 {
+  padding: 20px;
+}
+.none{
+  background-color: #6b6b6b;
+}
+.WinFont{
+  color: #d83b3b;
+}
+.noDisplay{
+  display: none;
+}
+.LoseFont{
+  color: #fff;
+}

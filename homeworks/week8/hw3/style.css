@@ -1,0 +1,131 @@
+body{
+    background: url("./background.jpg");
+    margin: 0;
+    font-family: "serif","微軟正黑體","Arial", "Microsoft JhengHei";
+    color:#fff;
+}
+.wrap{
+    margin: 100px auto 10px;
+    width: 95%;
+}
+.wrap > .title{
+    font-size: 50px;
+    text-align: center;   
+    padding: 0 0 35px 0px;    
+}
+.box {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.box__div{
+    display: inline-block;
+    width: 32%;
+    margin: 0 5px;
+    background-color:#ffffff21;
+    height: 275px;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+.box__movie {
+    margin: 10px 10px 10px;
+    background-color: #ffffff21;
+    height: 180px;
+    width: 363px;
+}
+.box__movie > img{
+    width: 100%;
+}    
+.box__info {
+
+}
+.box__logo {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.box__channel {
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;    
+}
+
+body{
+    background: url("./background.jpg");
+    margin: 0;
+    font-family: "serif","微軟正黑體","Arial", "Microsoft JhengHei";
+    color:#fff;
+}
+a:link{
+    color:#fff;
+}
+.wrap{
+    margin: 100px auto 10px;
+    width: 95%;
+}
+.wrap > .title{
+    font-size: 50px;
+    text-align: center;   
+    padding: 0 0 35px 0px;    
+}
+.box {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.box__div{
+    display: inline-block;
+    width: 32%;
+    margin: 0 5px;
+    background-color:#ffffff21;
+    height: 275px;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+.box__movie {
+    margin: 10px 10px 10px;
+    background-color: #ffffff21;
+    height: 180px;
+    width: 363px;
+}
+.box__movie > img{
+    width: 100%;
+}    
+.box__info {
+
+}
+.box__logo {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.box__channel {
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;  
+    color:#fff; 
+}
+.box__channel > .box__status > a {
+    color:#fff;  
+}
+.box__channel > .box__status > a:hover {
+     color:#ffffff47;
+
+
+.box__channel > .box__status >  font {
+    color : white;
+}

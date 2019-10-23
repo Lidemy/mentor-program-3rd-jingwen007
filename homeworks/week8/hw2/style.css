@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: serif,'Arial','微軟正黑體';
+}
+
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.header {
+    background-image: url(images/pic01.jpg);
+    background-size: cover;
+    height: 173px;
+    margin: 0px auto 0;
+    border: 1px #ccc solid;
+}
+.wrap > .message-wrap {
+    text-align: center;    
+}
+.wrap > .message-wrap > .message {
+    margin-top: 20px;
+}
+.wrap > .message-wrap > h3 {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+}
+.message {
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
+    padding: 10px;
+}   
+
+.wrap > .replyBox {
+    margin: 0 auto;
+    width: 50%;
+}
+.wrap > .replyBox > .reply {
+    margin: 10px 0;
+    background-color: #FFF;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #568e15; 
+}
+.wrap > .replyBox > .reply > font {
+    margin: 10px 0;
+    background-color: #8BC34A;
+    padding: 5px 0 5px 10px;   
+}
+
