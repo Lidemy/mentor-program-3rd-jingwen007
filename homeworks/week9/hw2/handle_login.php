@@ -12,14 +12,13 @@ if(isset($_POST['id'])){
 
 //echo $nickname;
 setcookie("nickname",$nickname, time()+3600); //變數為nickname，存活時間一小時(3600秒) 
-setcookie("password",$password, time()+3600); 
 //echo $_COOKIE['nickname'];
 
 if (empty($nickname) || empty($password)) {
     echo "<script>alert('您的帳號或密碼有錯誤，請重新輸入');location.href='./login.php';</script>";
 }
 else{
-    $sql = "SELECT * From jing_user WHERE `nickname` = '$nickname' && `password` = '$password';";
+    $sql = "SELECT * From jing_user WHERE `nickname` = '$nickname' AND `password` = '$password';";
     $sqlCount = "SELECT COUNT(comment) as count FROM jing_meg WHERE '$nickname' = `nickname`";
    // echo $sql."<br />";
     $result = $conn -> query($sql);//執行sql指令
