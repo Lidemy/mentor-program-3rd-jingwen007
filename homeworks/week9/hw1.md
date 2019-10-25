@@ -18,4 +18,4 @@
 | id         | int         |  留言編號   |
 | username   | text        |  使用者名稱 |
 | comment    | varchar(20) |  使用者內容 |
-| password   | datetime    |  留言時間   |
+| created_at | datetime    |  留言時間   |
